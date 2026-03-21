@@ -1,0 +1,125 @@
+📌 What is Pseudocode?
+ Pseudocode is a basic readable code language which we can understand easily .
+
+-> We write the code using basic English .
+-> It is focoused on Logics .
+-> We use Pseudocode in various languages like Java , Python , C , C++ . etc..
+-> It is not Executable .
+-> It is Syntax - sensitive .
+
+------------------------------------------------------------------------------------------------------------
+
+📐 Basic Rules of Pseudocode
+
+-> It doesn't have syntax rules .
+-> One Logical Step per line .
+-> Use simple and understandable English .
+-> Indentation(Leaving Space at the begining of the code) shows the flow .
+-> Keywords should be written in capital letters for Clarity and Good Understanding .
+
+-------------------------------------------------------------------------------------------------------------
+
+Common Keywords
+
+The commons keywords used are :-
+
+	START
+	END
+	READ
+	PRINT
+	SET
+	IF/ELSE
+	WHILE
+	FOR
+
+--------------------------------------------------------------------------------------------------------------
+
+🧩 Standard Pseudocode Structure
+
+START
+READ input
+Initialize variables
+Apply logic step by step
+PRINT output
+END
+
+------------------------------------------------------------------------------------------------------------
+
+🔁 Understanding Sequential Logic
+
+Problem: Add Two Numbers
+
+Logic 
+	-> Take Two Numbers
+	-> Add Them
+	-> Display the result
+
+Pseudocode
+
+START
+READ num1 , num2
+SET sum = 0
+	sum = num1 + num2
+PRINT sum
+END
+
+------------------------------------------------------------------------------------------------------------
+
+🔀 Decision Making (IF–ELSE)
+
+Problem: Check Even or Odd
+
+Logic
+	-> If number is divisible by 2 then print Even 
+	-> Otherwise print Odd
+
+Pseudocode
+
+START
+READ num1
+IF num1 % 2 == 0
+	PRINT Even
+ELSE 
+	PRINT Odd
+END
+
+
+Problem: Find Greatest of Two Numbers
+
+Pseudocode
+
+START
+READ num1 , num2
+IF num1 > num2
+	PRINT num1
+ELSE 
+	PRINT num2
+
+
+Problem: Find Greatest Among Three Numbers 
+
+pseudocode
+
+START
+READ num1 , num2 , num3
+IF num1>num2 && num1>num3
+	PRINT num1
+ELSE IF num2 > num3
+	PRINT num2
+ELSE 
+	PRINT num3
+END
+
+----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
