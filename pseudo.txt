@@ -2,10 +2,10 @@
  Pseudocode is a basic readable code language which we can understand easily .
 
 -> We write the code using basic English .
--> It is focoused on Logics .
+-> It is focused on Logics .
 -> We use Pseudocode in various languages like Java , Python , C , C++ . etc..
 -> It is not Executable .
--> It is Syntax - sensitive .
+-> It is not Syntax - sensitive .
 
 --------------------------------------------------------------------------------------------------------------
 
@@ -78,9 +78,9 @@ Pseudocode
 START
 READ num1
 IF num1 % 2 == 0
-	PRINT Even
+	PRINT "Even"
 ELSE 
-	PRINT Odd
+	PRINT "Odd"
 END
 
 
@@ -102,7 +102,7 @@ pseudocode
 
 START
 READ num1 , num2 , num3
-IF num1>num2 && num1>num3
+IF num1 > num2 && num1 > num3
 	PRINT num1
 ELSE IF num2 > num3
 	PRINT num2
@@ -111,6 +111,98 @@ ELSE
 END
 
 --------------------------------------------------------------------------------------------------------------------
+
+
+🟢Level 1: Basic Number Loop Problems
+
+1) Print numbers from 1 to N 
+  Pseudocode
+
+START 
+READ N
+SET number = 1
+WHILE number <= N
+	PRINT number
+	INCREMENT by 1
+END WHILE
+END
+
+-------------------------------------------------
+
+2) Print numbers from N to 1 
+  Pseudocode
+
+START 
+READ N
+SET number = 1
+WHILE number <= N
+	PRINT number 
+	DECREMENT by 1
+END WHILE 
+END
+
+-----------------------------------------------------
+
+3) Print all even numbers between 1 and N
+   Pseudocode
+
+START 
+SET no = 1
+WHILE no <= N
+	IF no % 2 == 0
+	PRINT no
+	INCREMENT by 1
+END WHILE
+END
+
+-------------------------------------------------------
+
+4) Print all odd numbers between 1 to N 
+   pseudocode
+
+START
+SET no = 1
+WHILE no <= N
+	IF no % 2 == 1
+	PRINT number
+	INCREMENT by 1
+END WHILE
+END
+
+----------------------------------------------------------
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------
+
+6) Find the sum of First N natural numbers 
+   Pseudocode
+
+START 
+READ N
+SET sum = 0
+SET number = 1
+WHILE number <= N
+	sum = sum + number
+	INCREMENT by 1
+PRINT sum
+END WHILE 
+END
+
+---------------------------------------------------------------
+
+7) Find the sum of even numbers between 1 to N 
+
+
+   
+
+
 
 
 
