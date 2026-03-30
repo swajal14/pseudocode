@@ -197,7 +197,8 @@ END
 
 ----------------------------------------------------------------------
 
-7) Find the sum of even numbers between 1 to N 
+7) Find the sum of even numbers between 1 to N     
+a) s
 
 
    
